@@ -1165,7 +1165,7 @@ var render = function() {
                             expression: "customer.email"
                           }
                         ],
-                        staticClass: "form-control form-control-lg",
+                        staticClass: "form-control form-control-lg mb-2",
                         attrs: { type: "email", placeholder: "Enter Email..." },
                         domProps: { value: _vm.customer.email },
                         on: {
@@ -1187,7 +1187,7 @@ var render = function() {
                             expression: "customer.firstname"
                           }
                         ],
-                        staticClass: "form-control form-control-lg",
+                        staticClass: "form-control form-control-lg mb-2",
                         attrs: {
                           type: "text",
                           placeholder: "Enter Customer's First Name..."
@@ -1216,7 +1216,7 @@ var render = function() {
                             expression: "customer.lastname"
                           }
                         ],
-                        staticClass: "form-control form-control-lg",
+                        staticClass: "form-control form-control-lg mb-2",
                         attrs: {
                           type: "text",
                           placeholder: "Enter Customer's Last Name..."

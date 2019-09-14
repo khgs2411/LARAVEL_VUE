@@ -105,19 +105,19 @@
                   type="email"
                   placeholder="Enter Email..."
                   v-model="customer.email"
-                  class="form-control form-control-lg"
+                  class="form-control form-control-lg mb-2"
                 />
                 <input
                   type="text"
                   v-model="customer.firstname"
                   placeholder="Enter Customer's First Name..."
-                  class="form-control form-control-lg"
+                  class="form-control form-control-lg mb-2"
                 />
                 <input
                   type="text"
                   v-model="customer.lastname"
                   placeholder="Enter Customer's Last Name..."
-                  class="form-control form-control-lg"
+                  class="form-control form-control-lg mb-2"
                 />
                 <input
                   type="text"
