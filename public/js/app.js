@@ -273,7 +273,6 @@ __webpack_require__.r(__webpack_exports__);
       fetch(page_url).then(function (res) {
         return res.json();
       }).then(function (res) {
-        console.log(res);
         _this.customers = res.data;
         vm.makePagination(res.meta, res.links);
       })["catch"](function (err) {
